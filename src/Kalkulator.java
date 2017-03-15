@@ -51,13 +51,15 @@ public class Kalkulator extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 255, 102));
 
-        jPanel1.setBackground(new java.awt.Color(0, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(0, 255, 153));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Traditional Arabic", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nilai X");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel2.setFont(new java.awt.Font("Traditional Arabic", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Nilai Y");
 
@@ -126,7 +128,7 @@ public class Kalkulator extends javax.swing.JFrame {
                 .addGap(86, 86, 86))
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 255, 204));
+        jPanel2.setBackground(new java.awt.Color(153, 0, 255));
 
         buttonGroup1.add(rbTambah);
         rbTambah.setForeground(new java.awt.Color(255, 255, 255));
@@ -178,10 +180,11 @@ public class Kalkulator extends javax.swing.JFrame {
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(255, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(51, 255, 153));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel3.setText("KALKULATORKU");
+        jLabel3.setFont(new java.awt.Font("Traditional Arabic", 0, 36)); // NOI18N
+        jLabel3.setText("''CALCULATOR''");
+        jLabel3.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -200,10 +203,10 @@ public class Kalkulator extends javax.swing.JFrame {
                 .addGap(42, 42, 42))
         );
 
-        jPanel4.setBackground(new java.awt.Color(0, 0, 204));
+        jPanel4.setBackground(new java.awt.Color(204, 51, 255));
 
         jLabel4.setBackground(new java.awt.Color(204, 204, 0));
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Traditional Arabic", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 0));
         jLabel4.setText("HASIL");
 
